@@ -60,7 +60,7 @@ Rscript scripts/clone_analysis.R
 
 ## Project Structure
 
-AIRR-ToyPipeline/
+AIRR-Pipeline/
 ├── data/
 │   └── example_db.tsv          # Input BCR data
 ├── scripts/
