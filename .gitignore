@@ -1,0 +1,10 @@
+# Ignore output files
+output/
+
+# Ignore RStudio files
+.Rhistory
+.RData
+.Rproj.user
+
+# Ignore OS-specific stuff
+.DS_Store
