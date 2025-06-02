@@ -33,7 +33,7 @@ plot <- ggplot(clone_sizes, aes(x = size)) +
 # Save the plot to output directory
 ggsave(output_file, plot, width = 7, height = 5)
 
-cat("✅ Analysis complete. Plot saved to:", output_file, "\n")
+cat("Analysis complete. Plot saved to:", output_file, "\n")
 
 # ---------------------------------------------
 # Calculate Shannon Diversity Index
@@ -47,8 +47,8 @@ clone_sizes <- clone_sizes %>%
 # Calculate Shannon index
 shannon_index <- -sum(clone_sizes$p_i * log(clone_sizes$p_i))
 
-# Print the result
-cat("🔢 Shannon Diversity Index:", round(shannon_index, 3), "\n")
+# Print
+cat("Shannon Diversity Index:", round(shannon_index, 3), "\n")
 
 
 write(paste("Shannon Diversity Index:", round(shannon_index, 3)),
